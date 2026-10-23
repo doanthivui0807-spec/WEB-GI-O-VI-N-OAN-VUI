@@ -1,0 +1,6 @@
+{
+  "name": "Hệ Thống Quản Lý & Hỗ Trợ Dạy Học Môn Toán",
+  "description": "Hệ thống quản lý và hỗ trợ giảng dạy môn Toán - Trường TH-THCS Hòa Nam - Giáo viên Đoàn Thị Vui",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

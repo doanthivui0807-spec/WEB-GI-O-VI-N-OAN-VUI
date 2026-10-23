@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  *, ::before, ::after {
+    font-family: 'Times New Roman', Times, 'Tinos', Georgia, serif !important;
+  }
+  
+  html, body {
+    font-family: 'Times New Roman', Times, 'Tinos', Georgia, serif !important;
+    background-color: #f4f8fc;
+    color: #1e293b;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  input, button, select, textarea {
+    font-family: 'Times New Roman', Times, 'Tinos', Georgia, serif !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
